@@ -1,6 +1,6 @@
 let permission = window.confirm("Son topish o'yiniga xush kelibsiz!\n0 dan 20 magacha bo'lgan oralig'idagi sonlardan birini kiriting va o'ylangan sonni toping!\n\nO'yinni boshlashga rozimisiz?");
 
-let number = 2;
+let number = Math.floor(Math.random() * 21);
 let entered_number;
 let attempt = 1;
 
