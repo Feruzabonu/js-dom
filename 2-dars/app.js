@@ -9,7 +9,7 @@ let link_1 = document.createElement("a");
 link_1.setAttribute("href", "#");
 link_1.textContent="Home";
 ulList_1.appendChild(link_1);
-ulElement.appendChild(ulList_1)
+ulElement.appendChild(ulList_1);
 
 let ulList_2 = document.createElement("li");
 ulList_2.className=' ';
@@ -17,7 +17,7 @@ let link_2 = document.createElement("a");
 link_2.setAttribute("href", "#");
 link_2.textContent="About";
 ulList_2.appendChild(link_2);
-ulElement.appendChild(ulList_2)
+ulElement.appendChild(ulList_2);
 
 let ulList_3 = document.createElement("li");
 ulList_3.className=' ';
@@ -25,7 +25,7 @@ let link_3 = document.createElement("a");
 link_3.setAttribute("href", "#");
 link_3.textContent="Contact";
 ulList_3.appendChild(link_3);
-ulElement.appendChild(ulList_3)
+ulElement.appendChild(ulList_3);
 
 let ulList_4 = document.createElement("li");
 ulList_4.className=' ';
@@ -33,7 +33,7 @@ let link_4 = document.createElement("a");
 link_4.setAttribute("href", "#");
 link_4.textContent="Services";
 ulList_4.appendChild(link_4);
-ulElement.appendChild(ulList_4)
+ulElement.appendChild(ulList_4);
 
 let ulList_5 = document.createElement("li");
 ulList_5.className=' ';
@@ -41,7 +41,7 @@ let link_5 = document.createElement("a");
 link_5.setAttribute("href", "#");
 link_5.textContent="Blog";
 ulList_5.appendChild(link_5);
-ulElement.appendChild(ulList_5)
+ulElement.appendChild(ulList_5);
 
 document.body.appendChild(ulElement);
 
@@ -64,7 +64,7 @@ let list = document.querySelectorAll("li");
 
 for(let el of list){
     el.style.cursor="pointer"
-}
+};
 
 let links = document.querySelectorAll("a");
 
@@ -82,7 +82,7 @@ const clear = (list)=>{
     for(let el of list){
         el.className=' '
     }
-}
+};
 
 const activ = (list)=>{
     
@@ -93,9 +93,9 @@ const activ = (list)=>{
             el.classList.add("activ");
         });
     }
-}
+};
 
-activ(list)
+activ(list);
 
 const hover = (list)=>{
     for(let el of list){
@@ -108,6 +108,6 @@ const hover = (list)=>{
            
         })
     }
-}
+};
 
-hover(list)
+hover(list);
