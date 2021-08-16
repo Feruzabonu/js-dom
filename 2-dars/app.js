@@ -126,8 +126,8 @@ let icon = document.createElement("i");
 icon.className = "fas fa-eye-slash";
 password.appendChild(icon);
 
-document.body.appendChild(password)
-document.body.appendChild(icon)
+document.body.appendChild(password);
+document.body.appendChild(icon);
 
 // Part of the styling ----------------------------------------------------
 
@@ -141,7 +141,7 @@ password.style.borderBottom="solid 2px rgba(0, 0, 0, 0.678)";
 password.style.outline="none";
 
 icon.style.cursor="pointer";
-icon.style.color="rgba(0, 0, 0, 0.678)"
+icon.style.color="rgba(0, 0, 0, 0.678)";
 
 // Part of events ----------------------------------------------------
 
