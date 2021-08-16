@@ -1,4 +1,7 @@
 
+// -------------------------Navbar--------------------------------------
+
+
 // Part of the creation ---------------------------------------------
 
 let ulElement = document.createElement("ul");
@@ -111,3 +114,47 @@ const hover = (list)=>{
 };
 
 hover(list);
+
+//---------------Password-------------------------
+
+// Part of the creation ---------------------------------------------
+
+let password = document.createElement('input');
+password.setAttribute("type","password");
+
+let icon = document.createElement("i");
+icon.className = "fas fa-eye-slash";
+password.appendChild(icon);
+
+document.body.appendChild(password)
+document.body.appendChild(icon)
+
+// Part of the styling ----------------------------------------------------
+
+password.style.margin="50px 10px 0px 20px";
+password.style.height="30px";
+password.style.width="200px";
+password.style.fontSize="20px";
+password.style.color="rgba(0, 0, 0, 0.678)";
+password.style.border="none";
+password.style.borderBottom="solid 2px rgba(0, 0, 0, 0.678)";
+password.style.outline="none";
+
+icon.style.cursor="pointer";
+icon.style.color="rgba(0, 0, 0, 0.678)"
+
+// Part of events ----------------------------------------------------
+
+let eye ;
+
+icon.addEventListener("click", function(){
+      if(icon.className=="fas fa-eye-slash"){
+        icon.className="fas fa-eye";
+        password.type="text";
+        
+      }else{
+        icon.className="fas fa-eye-slash";
+        password.type="password";
+      }
+})
+
