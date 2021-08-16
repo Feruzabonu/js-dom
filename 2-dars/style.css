@@ -1,0 +1,14 @@
+.activ, .activ li{
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.678);
+}
+.activ a{
+    color: #fff;
+}
+#hover, #hover li{
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.678);
+}
+#hover a{
+    color: #fff;
+}
