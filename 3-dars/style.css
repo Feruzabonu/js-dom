@@ -21,10 +21,11 @@ body{
     color: #fff;
 }
 .time{
-    width: 600px;
+    width: 650px;
     background-color: rgba(0, 0, 0, 0.596) ;
     border: 1px solid #fff;
     padding: 20px;
+    text-align: center;
 }
 
 
